@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.astronaut.TubesTestFinalFixInsyaAllah" >
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        tools:replace="android:icon,android:theme"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.astronaut.TubesTestFinalFixInsyaAllah.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.astronaut.TubesTestFinalFixInsyaAllah.ReminderAddActivity"
+                  android:label="@string/title_activity_add_reminder"/>
+
+        <activity android:name="com.astronaut.TubesTestFinalFixInsyaAllah.ReminderEditActivity"
+                  android:label="@string/title_activity_edit_reminder"/>
+
+        <activity android:name="com.astronaut.TubesTestFinalFixInsyaAllah.AboutActivity"
+                  android:label="@string/title_activity_licenses"/>
+
+        <receiver android:name="com.astronaut.TubesTestFinalFixInsyaAllah.AlarmReceiver"/>
+
+        <receiver android:name="com.astronaut.TubesTestFinalFixInsyaAllah.BCReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">Tubes Reminder</string>
+
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">About</string>
+
+    <string name="add_reminder">Write here..</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Interval </string>
+    <string name="repeat_type">Tipe </string>
+    
+    <string name="action_discard_reminder">Cancel</string>
+    <string name="action_save_reminder">Saved</string>
+    
+    <string name="no_reminders">Belum ada alarm, klik simbol + dibawah!</string>
+
+    <string name="about"><BIG><b>DALAM RANGKA MEMENUHI TUGAS BESAR OOP
+        \n \n
+        1. Indri Islamiawati Putri (1301170458)   \n
+        2. Kartika Putri Dwi Atmojo (1301170084)   \n
+        3. Muhammad Alfhi Saputra (1301171205)    \n
+        \n \n
+
+        ----- IF - 41 - 05 -----
+        \n
+        \n
+        1. Aplikasi di buka, akan menampilkan menu utama dimana kita akan membuat memo \n
+2. User membuat memo dengan judul di bagian atasnya.\n
+3. User dapat memilih untuk menetapkan memo yang ditulisnya sebagai pengingat .\n
+4. Jika user memilih memo agar ditetapkan sebagai pengingat, user dapat memilih menu di bawah untuk menetapkan alarm.\n
+5. Dalam alarm, user memasukkan tanggal dengan cara memilih tanggal dari layout kalender.\n
+6. Kemudian user memilih waktu yang diinginkan seperti menetapkan waktu pada alarm seperti biasa.\n
+7. Pilihlah system pengulangan alarm yang akan dilakukan, pengulangan dapat dilakukan pada jangka waktu tertentu. Yang dapat dipilih adalah pengulangan setiap hari, minggu, bulan dan tahun.\n
+8. Menetapkan banyak pengulangan yang akan di lakukan.\n
+9. Terakhir adalah menyimpan memo yang telah dibuat.\n
+10. Jika alarm telah terlaksana, memo akan tetap tersimpan.\n
+11. Jika ingin menghapus memo yang sudah tidak dibutuhkan atau tidak relevan, user dapat menghapusnya di menu utama dengan mengklik dan menahan lama di judul memo yang akan dihapus\n
+
+
+    </b></BIG>
+    </string>
+
+</resources>
